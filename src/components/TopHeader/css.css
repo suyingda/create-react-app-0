@@ -1,0 +1,9 @@
+ 
+#nav li{
+    float:left;
+    width:100px;
+    text-align: center;
+    list-style: none;
+    display: block;
+    cursor: pointer;
+}
