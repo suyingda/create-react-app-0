@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Router from './Router.js';
+/* import Router from './Router.js'; */ // this is my router.js
+import Router from './andou/routerTransit/Index.js'
+ 
 
-
-
-
-/* import registerServiceWorker from './registerServiceWorker'; */
 console.log(Router.RouterList)
 ReactDOM.render(
     <div>
@@ -16,4 +14,4 @@ ReactDOM.render(
     </div>,
     document.getElementById('root')
 );
-/* registerServiceWorker(); */
+
